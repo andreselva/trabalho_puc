@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+#content {
+    min-height: 82vh;
+}
+
+#content-text-img-inicio {
+    display: flex;
+    padding: 12.66vh;
+    justify-content: space-evenly;
+}
+
+#content-text-img-inicio h1 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #FF66C4;
+    font-size: 5vh;
+}
+
+#content-text-img-inicio p {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2vh;
+    line-height: 5vh;
+}
+
+#content-text-img {
+    display: flex;
+    padding: 8vh;
+    justify-content: space-evenly;
+}
+
+#content-text-img h1 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #FF66C4;
+    font-size: 5vh;
+}
+
+#content-text-img p {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 2vh;
+    line-height: 5vh;
+}
+
+#content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    max-width: 100vh;
+}
+
+#content-text-p {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+#content-form {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+#content-1 {
+    padding: 16.92vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.content-services {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.content-services h1 {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #FF66C4;
+    font-size: 5vh;
+}
+
+#content-service-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* Alinha os itens à esquerda */
+    gap: 1vh;
+    /* Espaçamento entre os itens */
+}
+
+#content-input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vh;
+}
+
+
+/* IMAGENS E DESCRIÇÕES */
+
+#img-principal {
+    width: 60vh;
+    /* largura desejada */
+    height: 60vh;
+    /* altura desejada */
+}
+
+#img-produto {
+    width: 18.5vh;
+    height: 25vh;
+}
+
+#rows {
+    display: flex;
+    padding: 7vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+#row-1 {
+    display: flex;
+    gap: 15vh;
+}
+
+#row-2 {
+    display: flex;
+    gap: 15vh;
+}
+
+
+.carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 29.8vh;
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    gap: 1vh;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-item {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+.carousel-control.next {
+    right: 10px;
+}
+
+
+.span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+
+.button-cadastro {
+    background-color: #4e8cff;
+    /* Cor azul não muito forte */
+    color: white;
+    /* Cor do texto */
+    border: 1px solid #4e8cff;
+    /* Borda com a mesma cor do fundo */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    padding: 9.5px 20px;
+    /* Espaçamento interno */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Cursor ao passar */
+}
+
+/* Estilização ao passar o mouse */
+.button-cadastro:hover {
+    background-color: #357bd8;
+    /* Cor um pouco mais escura ao passar o mouse */
+    border-color: #357bd8;
+    /* Borda acompanha a cor de fundo ao passar o mouse */
+}
+
+.button-cancelar {
+    background-color: #e24343;
+    /* Cor azul não muito forte */
+    color: white;
+    /* Cor do texto */
+    border: 1px solid #e24343;
+    /* Borda com a mesma cor do fundo */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    padding: 9.5px 20px;
+    /* Espaçamento interno */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Cursor ao passar */
+}
+
+/* Estilização ao passar o mouse */
+.button-cancelar:hover {
+    background-color: #e62727;
+    /* Cor um pouco mais escura ao passar o mouse */
+    border-color: #db6464;
+    /* Borda acompanha a cor de fundo ao passar o mouse */
+}
+
+.button-adicionar {
+    background-color: #3a9961;
+    /* Cor azul não muito forte */
+    color: white;
+    /* Cor do texto */
+    border: 1px solid #3a9961;
+    /* Borda com a mesma cor do fundo */
+    border-radius: 8px;
+    /* Bordas arredondadas */
+    padding: 9.5px 20px;
+    /* Espaçamento interno */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Cursor ao passar */
+}
+
+.button-adicionar:hover {
+    background-color: #1b7942;
+    /* Cor um pouco mais escura ao passar o mouse */
+    border-color: #1b7942;
+    /* Borda acompanha a cor de fundo ao passar o mouse */
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/reset_css.css">
+    <link rel="stylesheet" href="./estilos/header.css">
+    <link rel="stylesheet" href="./estilos/main.css">
+    <link rel="stylesheet" href="./estilos/footer.css">
+    <link rel="stylesheet" href="./estilos/inputs.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <nav id="nav-principal">
+            <div id="nav-principal-div">
+                <div id="nav-principal-link">
+                    <div id="nav-name">
+                        <a href="index.html">
+                            <div id="funny">Funny</div>
+                            <div id="pet">Pet</div>
+                        </a>
+                    </div>
+                    <div id="nav-links">
+                        <a href="#">Minha conta</a>
+                        <a href="produtos.html">Produtos</a>
+                        <a href="servicos.html">Serviços</a>
+                    </div>
+                </div>
+                <div id="nav-carr-lgn">
+                    <a href="#">
+                        <i class="bi bi-cart"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-person"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <div id="content-text-img">
+                <form>
+                    <div id="content-form">
+                        <div>
+                            <h1>Faça seu cadastro</h1>
+                        </div>
+                        <div id="content-input">
+                            <div class="lbl-inpt">
+                                <label for="name">Nome</label>
+                                <input type="text" id="name" name="name" placeholder="Insira seu nome..." class="input"
+                                    required>
+                            </div>
+                            <div class="lbl-inpt">
+                                <label for="address">Endereço</label>
+                                <input type="text" id="address" name="address" placeholder="Insira seu endereço..."
+                                    class="input" required>
+                            </div>
+                            <div class="lbl-inpt">
+                                <label for="number">Número</label>
+                                <input type="number" id="number" name="number" class="input" required>
+                            </div>
+                            <div class="lbl-inpt">
+                                <label for="phone">Telefone</label>
+                                <input type="text" id="phone" name="phone" placeholder="Insira seu telefone..."
+                                    class="input" required>
+                            </div>
+                            <div class="lbl-inpt">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" placeholder="Insira seu melhor e-mail..."
+                                    class="input" required>
+                            </div>
+                            <div class="lbl-inpt">
+                                <label for="namepet">Nome do pet</label>
+                                <input type="text" id="name" name="namepet" autocomplete="off" class="input" required>
+                            </div>
+                            <div class="lbl-inpt">
+                                <div class="lbl-inpt-radio">
+                                    <div>Tipo:</div>
+                                    <div>
+                                        <label for="dog">Cão</label>
+                                        <input type="radio" id="dog" name="pet" value="dog" required>
+                                        <label for="cat">Gato</label>
+                                        <input type="radio" id="cat" name="pet" value="cat" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="lbl-inpt">
+                                <label for="name">Raça</label>
+                                <input type="text" id="phone" name="phone" class="input" required>
+                            </div>
+                            <div class="lbl-inpt">
+                                <div class="lbl-inpt-radio">
+                                    <div>Temperamento:</div>
+                                    <div>
+                                        <label for="friendly">Amigável</label>
+                                        <input type="radio" id="friendly" name="friendly" value="Amigável" required>
+                                        <label for="sociable">Sociável</label>
+                                        <input type="radio" id="sociable" name="sociable" value="Sociável" required>
+                                        <label for="temperamental">Temperamental</label>
+                                        <input type="radio" id="temperamental" name="temperamental"
+                                            value="Temperamental" required>
+                                        <label for="aggressive">Agressivo</label>
+                                        <input type="radio" id="aggressive" name="aggressive" value="Agressivo"
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="button-cadastro">Cadastrar</button>
+                            <button class="button-cancelar" onclick="cancelar(event)">Cancelar</button>
+                        </div>
+                    </div>
+                </form>
+                <div>
+                    <img id="img-principal" src="imagens/img-cao-gato.jpeg">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3 id="footer">
+            <div>Desenvolvido por André Saraiva Selva</div>
+            <div>selvaandre99@gmail.com</div>
+        </h3>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

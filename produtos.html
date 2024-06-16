@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/reset_css.css">
+    <link rel="stylesheet" href="./estilos/header.css">
+    <link rel="stylesheet" href="./estilos/main.css">
+    <link rel="stylesheet" href="./estilos/footer.css">
+    <link rel="stylesheet" href="./estilos/inputs.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <nav id="nav-principal">
+            <div id="nav-principal-div">
+                <div id="nav-principal-link">
+                    <div id="nav-name">
+                        <a href="index.html">
+                            <div id="funny">Funny</div>
+                            <div id="pet">Pet</div>
+                        </a>
+                    </div>
+                    <div id="nav-links">
+                        <a href="cadastro.html">Minha conta</a>
+                        <a href="#">Produtos</a>
+                        <a href="servicos.html">Serviços</a>
+                    </div>
+                </div>
+                <div id="nav-carr-lgn">
+                    <a href="#">
+                        <i class="bi bi-cart"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-person"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <div id="rows">
+                <div id="row-1">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <img id="img-produto" src="imagens/racao.jpg" alt="Ração">
+                            </div>
+                            <div class="carousel-item">
+                                <img id="img-produto" src="imagens/racao2.jpg" alt="Ração">
+                            </div>
+                            <div class="carousel-item">
+                                <img id="img-produto" src="imagens/racao3.jpg" alt="Ração">
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" onclick="prevSlide(this)">&#10094;</button>
+                        <button class="carousel-control next" onclick="nextSlide(this)">&#10095;</button>
+                        <div class="span">
+                            <span>Ração Hills Science Diet Pedaços</span>
+                            <span>R$135.90</span>
+                        </div>
+                        <div>
+                            <button class="button-adicionar">Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/bravecto.jpg" alt="Ração">
+                            </div>
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/bravecto2.jpg" alt="Ração">
+                            </div>
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/bravecto3.jpg" alt="Ração">
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" onclick="prevSlide(this)">&#10096;</button>
+                        <button class="carousel-control next" onclick="nextSlide(this)">&#10097;</button>
+                        <div class="span">
+                            <span>Antipulgas e Carrapatos Bravecto</span>
+                            <span>R$135.90</span>
+                        </div>
+                        <div>
+                            <button class="button-adicionar">Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/chalesco.jpg" alt="Ração">
+                            </div>
+                        </div>
+                        <div class="span">
+                            <span>Brinquedo Chalesco Porco para Cães</span>
+                            <span>R$31.99</span>
+                        </div>
+                        <div>
+                            <button class="button-adicionar">Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/peitoral.jpg" alt="Ração">
+                            </div>
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/peitoral2.jpg" alt="Ração">
+                            </div>
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/peitoral3.jpg" alt="Ração">
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" onclick="prevSlide(this)">&#10094;</button>
+                        <button class="carousel-control next" onclick="nextSlide(this)">&#10095;</button>
+                        <div class="span">
+                            <span>Peitoral com Guia Toh Anti-Puxão</span>
+                            <span>R$73.99</span>
+                        </div>
+                        <div>
+                            <button class="button-adicionar">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="row-2">
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/racaopremier.jpg" alt="Ração">
+                            </div>
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/racaopremier2.jpg" alt="Ração">
+                            </div>
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/racaopremier3.jpg" alt="Ração">
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" onclick="prevSlide(this)">&#10094;</button>
+                        <button class="carousel-control next" onclick="nextSlide(this)">&#10095;</button>
+                        <div class="span">
+                            <span>Ração Premier Seleção Natural</span>
+                            <span>R$71.90</span>
+                        </div>
+                        <div>
+                            <button class="button-adicionar">Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/areia.jpg" alt="Ração">
+                            </div>
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/areia2.jpg" alt="Ração">
+                            </div>
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/areia3.jpg" alt="Ração">
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" onclick="prevSlide(this)">&#10094;</button>
+                        <button class="carousel-control next" onclick="nextSlide(this)">&#10095;</button>
+                        <div class="span">
+                            <span>Areia Higiênica Viva Verde Grãos</span>
+                            <span>R$62.99</span>
+                        </div>
+                        <div>
+                            <button class="button-adicionar">Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/patinho.jpg" alt="Ração">
+                            </div>
+                        </div>
+                        <div class="span">
+                            <span>Brinquedo Chalesco Sweet Patinho</span>
+                            <span>R$23.90</span>
+                        </div>
+                        <div>
+                            <button class="button-adicionar">Adicionar</button>
+                        </div>
+                    </div>
+                    <div class="carousel">
+                        <div class="carousel-inner">
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/biscoito.jpg" alt="Ração">
+                            </div>
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/biscoito2.jpg" alt="Ração">
+                            </div>
+                            <div id="carousel" class="carousel-item">
+                                <img id="img-produto" src="imagens/biscoito3.jpg" alt="Ração">
+                            </div>
+                        </div>
+                        <button class="carousel-control prev" onclick="prevSlide(this)">&#10094;</button>
+                        <button class="carousel-control next" onclick="nextSlide(this)">&#10095;</button>
+                        <div class="span">
+                            <span>Biscoito Premier Cookie para Cães</span>
+                            <span>R$16.20</span>
+                        </div>
+                        <div>
+                            <button class="button-adicionar">Adicionar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3 id="footer">
+            <div>Desenvolvido por André Saraiva Selva</div>
+            <div>selvaandre99@gmail.com</div>
+        </h3>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/reset_css.css">
+    <link rel="stylesheet" href="./estilos/header.css">
+    <link rel="stylesheet" href="./estilos/main.css">
+    <link rel="stylesheet" href="./estilos/footer.css">
+    <link rel="stylesheet" href="./estilos/inputs.css">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <header>
+        <nav id="nav-principal">
+            <div id="nav-principal-div">
+                <div id="nav-principal-link">
+                    <div id="nav-name">
+                        <a href="index.html">
+                            <div id="funny">Funny</div>
+                            <div id="pet">Pet</div>
+                        </a>
+                    </div>
+                    <div id="nav-links">
+                        <a href="cadastro.html">Minha conta</a>
+                        <a href="produtos.html">Produtos</a>
+                        <a href="#">Serviços</a>
+                    </div>
+                </div>
+                <div id="nav-carr-lgn">
+                    <a href="#">
+                        <i class="bi bi-cart"></i>
+                    </a>
+                    <a href="#">
+                        <i class="bi bi-person"></i>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="content">
+            <div id="content-1">
+                <div class="content-services">
+                    <h1>Serviços</h1>
+                    <div id="content-service-item">
+                        <h6>
+                            Banho -
+                        </h6>
+                        <span>
+                            R$40,00
+                        </span>
+                        <button class="button-adicionar">
+                            Adicionar
+                        </button>
+                    </div>
+                    <div id="content-service-item">
+                        <h6>
+                            Tosa Completa -
+                        </h6>
+                        <span>
+                            R$80,00
+                        </span>
+                        <button class="button-adicionar">
+                            Adicionar
+                        </button>
+                    </div>
+                    <div id="content-service-item">
+                        <h6>
+                            Tosa Higiênica -
+                        </h6>
+                        <span>
+                            R$20,00
+                        </span>
+                        <button class="button-adicionar">
+                            Adicionar
+                        </button>
+                    </div>
+                    <div id="content-service-item">
+                        <h6>
+                            Agendar consulta -
+                        </h6>
+                        <span>
+                            R$75,00
+                        </span>
+                        <button class="button-adicionar">
+                            Adicionar
+                        </button>
+                    </div>
+                    <div id="content-service-item">
+                        <h6>
+                            Agendar exame -
+                        </h6>
+                        <span>
+                            R$48,00
+                        </span>
+                        <button class="button-adicionar">
+                            Adicionar
+                        </button>
+                    </div>
+                    <div id="content-service-item">
+                        <label>Agendar para</label>
+                        <input type="date">
+                        <input type="time">
+                    </div>
+                    <div>
+                        <div>Precisa de tele-busca?</div>
+                        <div>
+                            <label for="yes">Sim</label>
+                            <input type="radio" id="yes" name="yes" value="sim" required>
+                            <label for="no">Não</label>
+                            <input type="radio" id="no" name="no" value="não" required>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="button-cadastro">Finalizar</button>
+                        <button class="button-cancelar" onclick="cancelar(event)">Cancelar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <h3 id="footer">
+            <div>Desenvolvido por André Saraiva Selva</div>
+            <div>selvaandre99@gmail.com</div>
+        </h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
